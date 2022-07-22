@@ -47,7 +47,7 @@
 Shot][product-screenshot]](https://example.com)
 
 ### Built With:
-This report was built using Python language through Jupyter Notebook and the extracted data comes from a xlsx file.
+This report was built using Python language through Jupyter Notebook and the extracted data comes from a CSV file.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
