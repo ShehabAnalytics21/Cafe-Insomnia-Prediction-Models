@@ -28,20 +28,12 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project:
-*	Bellingen Riverwatch government initiative aims to create a safe environment for the Bellinger River Snapping Turtle by collaborating with the local community and by spreading awareness of the importance of this endeavour. 
-*	The data collected are provided in the “bellingen-riverwatch-ongoing-data_last-updated-20210812_ig.xlsx” file in the “riverwatch data” folder. 
-*	The name of the sites along with their exact location is provided in the “bellingenriverwatch_sites.csv” file in the “rvierwatch data” folder. 
-*	The volunteer manual and Data Quality Analysis (DQS) are also provided in the “rvierwatch data” folder to provide more information about the methodology and settings of the initiative.
-*	The main report is provided as Jupyter Notebook in the file named “Bellingen Riverwatch EDA.ipynb”.
-
-* In this report, an in-depth EDA was conducted to answer the following questions: 
-  1.	What is the general relationship between all numerical variables?
-  2.	Does the BR water quality meet the ANZECC Freshwater Quality Guidelines & Ratings?
-  3.	How does the water quality of BR change annually?
-  4.	How does the water quality of BR change every summer?
-  5.	What is the relationship between "Water level or flow" and water quality?
-  6.	What is the relationship between "Rainfall in last 7 days" and water quality?
-
+*	This project deals with a hypothetical case study of a café named Insomnia that is located on the University of Sydney campus and that only opens at night. 
+*	The café owner assigned a consultant to conduct an EDA analysis to investigate the possibility of establishing predictive models for this data. 
+*	Our goal in this case study was to improve on the consultant’s work and then to create prediction models to predict coffee sales on an hourly basis. 
+*	The “Graphs” folder contains all the figures that were used in the main report in a png format. 
+*	The “data” folder contains the consultant’s code named “code.ipynb”, the data dictionary named “data_dictionary.txt” and finally the CSV file that contains the raw data which is named “transactions.csv”.
+*	The main report file is presented in two formats, a pdf in “Café Insomnia Report.pdf” and a Jupyter Notebook format in “Café Insomnia Code.ipynb”. 
 
 [![Product Name Screen
 Shot][product-screenshot]](https://example.com)
@@ -57,12 +49,14 @@ This report was built using Python language through Jupyter Notebook and the ext
 ### Installation:
 To get the report up and running, please follow these simple steps:
 1. 	First, fork the project to your repository.
-2.	Open the Rmd file named “Bellingen Riverwatch EDA.ipynb”. 
-
+2.	Open the PDF file named “Café Insomnia Report.pdf”. 
+3.	To open the code, download the file “Café Insomnia Code.ipynb”.
+ 
 To view the excel sheet that contains the data, please follow the instructions:
 1.	First, fork the project to your repository.
-2.	Download the excel file named “bellingen-riverwatch-ongoing-data_last-updated-20210812_ig.xlsx “provided in the “.riverwatch data” folder.
-3.	Open the file using excel or other applicable programs. 
+2.	Download the excel file named “transactions.csv “provided in the “data” folder. 
+3.	Open the file using excel or another applicable program. 
+
  
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -70,7 +64,7 @@ To view the excel sheet that contains the data, please follow the instructions:
 
 <!-- USAGE EXAMPLES -->
 ## Usage:
-The main users of this data would be individuals from the scientific community that are interested in assessing the health of rivers and estuaries specifically in Australia. Additionally, the government and the local council can also use this data to track the change in water quality annually and every summer. 
+This project could be useful for beginners who are looking for a guide to exploratory data analysis or predictive modelling. This project make use of two types of predictive modelling, in specific, they are, multiple linear regression models and polynomial regression models. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
